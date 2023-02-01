@@ -1,0 +1,15 @@
+DEPENDENCY INJECTION
+
+Loose coupling
+
+
+class Laptop
+{
+  @Autowired
+  HardDrive obj1;
+}
+
+@Component
+class HitachiHD implements HardDrive{
+  ...
+}
