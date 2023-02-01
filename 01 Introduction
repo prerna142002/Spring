@@ -2,13 +2,15 @@ DEPENDENCY INJECTION
 
 Loose coupling
 
-
 class Laptop
 {
   @Autowired
   HardDrive obj1;
 }
 
+
+// Generated on the Run Time 
+// Makes them dependent
 @Component
 class HitachiHD implements HardDrive{
   ...
