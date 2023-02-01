@@ -1,1 +1,14 @@
 Build tool and it is under a license of Apache.
+We need to download the dependecy by yourself when working on bigger projects.
+
+Things needed:
+pom.xml -: where you mention everything 
+Project: 
+GroupId: com.telusko -: define package :- all projects under this domain
+ArtfactId: demo :- When we make project we need to make sure it is unique from the world. :- needs to be unique :- define your project name
+Package: com.telusko.demo.web
+
+Maven has 2 repo:
+1. Remote
+2. Local : will check here first and then download from the remote once conencted with the internet.
+
