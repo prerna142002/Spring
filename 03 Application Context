@@ -1,0 +1,29 @@
+Dependency Injection
+
+We have dependencies of objects.
+If we make an interface then we dont need to change and delcare different objects we can just change the name of the constructor then its done.
+
+When using the Spring Framework then we can say get me a bean like below
+< 
+  Vehicle obj = getBean("vehicle");
+/>
+
+getBean is a method from 2 interfaces:
+1. BeanFactory
+2. ApplicationContext
+
+For creating a small application then use BeanFacotry but if creating an enterprise level/web level then always go for application context.
+Application context is the superset of BeanFactory. So, whatever features are provided by the Bean Factory are also provided by the ApplicationContext.
+
+<
+
+        ApplicationContext context = new ClassPathXmlApplicationContext();
+        Vehicle o2 = (Vehicle)context.getBean("vehicle");
+        o2.drive();
+/>
+
+The problem here will arise "BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext"
+Because we have given the keyword vehicle but we dont know what it is. It is just a keyword.
+Because vehicle is an interface and can only create instance of the class.
+So, we need to create an XML file and in that we can mention which onject you need whenver you call vehicle.
+
