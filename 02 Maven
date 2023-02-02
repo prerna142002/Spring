@@ -12,3 +12,7 @@ Maven has 2 repo:
 1. Remote
 2. Local : will check here first and then download from the remote once conencted with the internet.
 
+We get the code structure and the required dependencies 
+Then when we save the code then we te the deecy installed in under our MAVEN DEPENDENCIES.
+
+
