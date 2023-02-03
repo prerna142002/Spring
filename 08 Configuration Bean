@@ -1,0 +1,8 @@
+Configure spring application with the help of spring application.
+When working with this we need to create a class that is responsible for this.
+
+@Configuration
+Add this so it is responsible for the annotation stuff and gives the properties.
+
+@Bean
+We need to tell that the method is Bean and we need to configure accordingly.
