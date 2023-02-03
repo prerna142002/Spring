@@ -1,0 +1,3 @@
+When you are setting the properties based on the getter methods then it is "Setter Injection".
+Else it is called "Constructor Injection".
+
