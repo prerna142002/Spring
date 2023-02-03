@@ -1,3 +1,4 @@
 When you are setting the properties based on the getter methods then it is "Setter Injection".
 Else it is called "Constructor Injection".
 
+Set the property as constructor-arg instead of property
