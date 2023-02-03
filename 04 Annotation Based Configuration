@@ -3,3 +3,10 @@ So, for that we need to have 2nd way using the Annotation Based Configurations.
 
 When we are using the annotation based then we dont need to specify in XML File.
 Just need to declare in the class file that it is component.
+
+We know that we have written the @Component but spring framework does not know that you have written as it will go and see in the spring.xml to check the reqiremnets but it will not be able to find it.
+So, we need to mention in the spring.xml 
+	<context:component-scan base-package="com.dwarfcoder.Demo">
+	</context:component-scan>
+  
+  And @Component in the class above.
