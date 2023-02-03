@@ -1,0 +1,5 @@
+To select the object we need to select the one with the required.
+So, for that we need to have 2nd way using the Annotation Based Configurations.
+
+When we are using the annotation based then we dont need to specify in XML File.
+Just need to declare in the class file that it is component.
